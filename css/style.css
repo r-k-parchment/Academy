@@ -38,7 +38,7 @@
 
 /* Global */
 
-body {
+.page-body {
   min-width: 1440px;
   margin: 0;
   padding: 0;
@@ -48,6 +48,11 @@ body {
   font-weight: 400;
   color: var(--basic-black);
   background-color: var(--basic-white);
+
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: min-content 1fr min-content;
+  align-content: start;
 }
 
 a {
@@ -71,6 +76,12 @@ img {
   clip-path: inset(100%);
   clip: ract(0 0 0 0);
   overflow: hidden;
+}
+
+/* Grid */
+
+.page {
+  height: 100%;
 }
 
 /* Main navigation */
