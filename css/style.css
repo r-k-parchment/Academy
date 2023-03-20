@@ -84,6 +84,14 @@ img {
   height: 100%;
 }
 
+/* Main header */
+
+.main-header {
+  margin-bottom: 70px;
+  outline: 5px solid var(--basic-green);
+  outline-offset: -5px;
+}
+
 /* Main navigation */
 
 .main-header {
