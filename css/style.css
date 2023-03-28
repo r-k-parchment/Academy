@@ -92,11 +92,11 @@ img {
   outline-offset: -5px;
 }
 
-/* Main navigation */
-
 .main-header {
   background-color: var(--basic-smoky-white);
 }
+
+/* Main navigation */
 
 .main-navigation {
   font-weight: 500;
@@ -107,16 +107,26 @@ img {
 
 .site-navigation {
   list-style: none;
+  outline: 5px solid rgba(255,255,0,0.3);
 }
 
 /* User navigation */
 
-.main-haeder-logo:hover {
+.main-header-logo {
+  outline: 5px solid rgba(255,0,0,0.3);
+  outline-offset: -5px;
+}
+
+.main-header-logo:hover {
   opacity: 70%;
 }
 
-.main-haeder-logo:active {
+.main-header-logo:active {
   opacity: 30%;
+}
+
+.basket-link {
+  outline: 5px solid rgba(255,0,255,0.3)
 }
 
 .site-navigation a,
