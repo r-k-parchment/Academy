@@ -100,7 +100,7 @@ img {
 
 .main-navigation {
   display: grid;
-  grid-template-columns: min-content 1fr min-content;
+  grid-template-columns: 160px 1fr min-content;
   font-weight: 500;
   line-height: 30px;
   color: war (--basic-black);
