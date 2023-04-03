@@ -99,6 +99,8 @@ img {
 /* Main navigation */
 
 .main-navigation {
+  display: grid;
+  grid-template-columns: max-content 1fr min-content;
   font-weight: 500;
   line-height: 30px;
   color: war (--basic-black);
@@ -107,13 +109,13 @@ img {
 
 .site-navigation {
   list-style: none;
-  outline: 5px solid rgba(255,255,0,0.3);
+  outline: 5px solid rgba(255, 255, 0, 0.3);
 }
 
 /* User navigation */
 
 .main-header-logo {
-  outline: 5px solid rgba(255,0,0,0.3);
+  outline: 5px solid rgba(255, 0, 0, 0.3);
   outline-offset: -5px;
 }
 
@@ -126,7 +128,7 @@ img {
 }
 
 .basket-link {
-  outline: 5px solid rgba(255,0,255,0.3)
+  outline: 5px solid rgba(255, 0, 255, 0.3)
 }
 
 .site-navigation a,
@@ -598,5 +600,3 @@ img {
   border: 3px solid var(--pagonation-border);
   border-radius: 3px;
 }
-
-
