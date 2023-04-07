@@ -87,7 +87,6 @@ img {
 /* Main header */
 
 .main-header {
-  margin-bottom: 70px;
   outline: 5px solid var(--basic-green);
   outline-offset: -5px;
 }
@@ -100,16 +99,24 @@ img {
 
 .main-navigation {
   display: grid;
-  grid-template-columns: 160px 1fr min-content;
+  grid-template-columns: auto 1fr min-content;
   font-weight: 500;
   line-height: 30px;
-  color: war (--basic-black);
+  color: var(--basic-black);
   text-transform: uppercase;
+  width: 1440px;
+  margin: 0 auto ;
+  padding: 0 10px;
 }
 
 .site-navigation {
   list-style: none;
   outline: 5px solid rgba(255, 255, 0, 0.3);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax( 100px, max-content));
+  gap: 45px;
+  margin: 0;
+  padding: 0;
 }
 
 /* User navigation */
