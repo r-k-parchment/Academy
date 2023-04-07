@@ -15,56 +15,67 @@
 
 <body class="page-body">
 
-  <header class="main-header">
+  <header class="main-header-background">
     <nav class="main-navigation">
       <a class="main-header-logo">
         <img src="img/logo.svg" width="160" height="66" alt="Логотип «Nёrd's»">
       </a>
-        <ul class="site-navigation">
-          <li><a href="blank.html">Студия</a></li>
-          <li><a href="blank.html">Клиенты</a></li>
-          <li><a href="catalog.html">Магазин</a></li>
-          <li><a href="blank.html">Контакты</a></li>
-        </ul>
+      <ul class="site-navigation">
+        <li><a href="blank.html">Студия</a></li>
+        <li><a href="blank.html">Клиенты</a></li>
+        <li><a href="catalog.html">Магазин</a></li>
+        <li><a href="blank.html">Контакты</a></li>
+      </ul>
       <a class="basket-link" href="blank.html">Корзина</a>
     </nav>
   </header>
-  <main class="container">
-    <h1 class="visually-hidden">Веб студия «Nёrd's»</h1>
-    <section class="company-slogans">
-      <h2 class="visually-hidden">О нас</h2>
-      <form class="slider">
-        <fieldset class="slider-nav">
-          <input type="radio" name="slider" value="slide-1" checked>
-          <input type="radio" name="slider" value="slide-2">
-          <input type="radio" name="slider" value="slide-3">
-        </fieldset>
-        <ul class="slider-list">
-          <li class="slider-item">
-            <p class="slogan">Долго, дорого, скурпулезно.</p>
-            <p class="basik-text">Математически выверенный дизайн для вашего сайта или мобильной платформы.</p>
-            <button class="button" type="button">Узнать больше</button>
-            <img src="img/slider/three-smart.png" width="760" height="431"
-              alt="На трех смартфонах показаны открытые приложения.">
-          </li>
-          <li class="slider-item">
-            <p class="slogan">Любим математику как никто другой</p>
-            <p class="basik-text">Никакого креатива, только математические формулы для расчета идеальных пропорций</p>
-            <button class="button" type="button">Узнать больше</button>
-            <img src="img/slider/two-pcs.png" width="760" height="431" alt="На двух мониторах показаны открытые сайты.">
-          </li>
-          <li class="slider-item">
-            <p class="slogan">Только ночь, только хардкор</p>
-            <p class="basik-text">Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается.
-            </p>
-            <button class="button" type="button">Узнать больше</button>
-            <img src="img/slider/ps-and-smart.png" width="760" height="431"
-              alt="На мониторе и смартфоре показаны работы студии.">
-          </li>
-        </ul>
-      </form>
+  <main>
+    <div class="main-header-background">
+      <h1 class="visually-hidden">Веб студия «Nёrd's»</h1>
+      <section class="company-slogans container">
+        <h2 class="visually-hidden">О нас</h2>
+        <form class="slider">
+          <fieldset class="slider-nav">
+            <input type="radio" name="slider" value="slide-1" checked>
+            <input type="radio" name="slider" value="slide-2">
+            <input type="radio" name="slider" value="slide-3">
+          </fieldset>
+          <ul class="slider-list">
+            <li class="slider-item">
+              <div class="slogan-container-1">
+                <p class="slogan">Долго, дорого, скурпулезно.</p>
+                <p class="basik-text">Математически выверенный дизайн для вашего сайта или мобильной платформы.</p>
+                <button class="button" type="button">Узнать больше</button>
+              </div>
+              <img class="slider-img-1" src="img/slider/three-smart.png" width="760" height="431"
+                alt="На трех смартфонах показаны открытые приложения.">
+            </li>
+            <li class="slider-item">
+              <div class="slogan-container-2">
+                <p class="slogan">Любим математику как никто другой</p>
+                <p class="basik-text">Никакого креатива, только математические формулы для расчета идеальных пропорций
+                </p>
+                <button class="button" type="button">Узнать больше</button>
+              </div>
+              <img class="slider-img-2" src="img/slider/two-pcs.png" width="760" height="431"
+                alt="На двух мониторах показаны открытые сайты.">
+            </li>
+            <li class="slider-item">
+              <div class="slogan-container-3">
+                <p class="slogan">Только ночь, только хардкор</p>
+                <p class="basik-text">Работать днем, как все? Мы против этого. Ближе к полуночи работа только
+                  начинается.
+                </p>
+                <button class="button" type="button">Узнать больше</button>
+              </div>
+              <img class="slider-img-3" src="img/slider/ps-and-smart.png" width="760" height="431"
+                alt="На мониторе и смартфоре показаны работы студии.">
+            </li>
+          </ul>
+        </form>
+      </section>
+    </div>
 
-    </section>
     <section class="services">
       <h2 class="visually-hidden">Услуги</h2>
       <ul class="services-list">
