@@ -235,6 +235,12 @@ img {
 
 .services-list {
   list-style: none;
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 347px;
+  gap: 100px;
+  margin: 0;
+  padding: 0;
 }
 
 .services-item h3 {
