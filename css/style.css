@@ -290,6 +290,22 @@ img {
 
 /* About-us */
 
+.about-company {
+  display: grid;
+  grid-template-columns: 700px 360px;
+  gap: 100px;
+}
+
+.in-numbers-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.in-numbers-item {
+  grid-row: 1 / 2 ;
+}
+
+
 .we {
   font-weight: 500;
   font-size: 45px;
@@ -312,10 +328,15 @@ img {
   line-height: 64px;
 }
 
+
 .in-numbers-item sup {
   font-weight: 700;
   font-size: 26px;
   line-height: 40px;
+}
+
+.in-numbers-desc-item {
+  margin: 0;
 }
 
 /*  Our-clients */
