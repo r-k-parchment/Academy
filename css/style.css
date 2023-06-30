@@ -342,6 +342,11 @@ img {
 /*  Our-clients */
 
 .clients-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.clients-list {
   list-style: none;
 }
 
@@ -358,6 +363,11 @@ img {
 }
 
 /* Contacts */
+
+.map {
+  margin: 0;
+  padding: 0;
+}
 
 .footer-contacts__name-studio {
   font-weight: 700;
