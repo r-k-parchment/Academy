@@ -364,10 +364,43 @@ img {
 
 /* Contacts */
 
+.contacts-container {
+  width: 1440px;
+  padding: 0;
+  margin: 0 auto 0 auto;
+  display: grid;
+}
+
 .map {
   margin: 0;
   padding: 0;
+
+  grid-row: 1 / 2;
+  grid-column: 1 / 2;
 }
+
+.marker {
+  margin: 70px 362px 156px 847px;
+  padding: 0;
+
+  grid-row: 1 / 2;
+  grid-column: 1 / 2;
+}
+
+.contacts-text {
+  width: 319px;
+  height: 308px;
+
+  margin: 54px 981px 54px 140px;
+  padding: 0;
+
+  background-color: var(--basic-white);
+
+  grid-row: 1 / 2;
+  grid-column: 1 / 2;
+  z-index: 1;
+}
+
 
 .footer-contacts__name-studio {
   font-weight: 700;
