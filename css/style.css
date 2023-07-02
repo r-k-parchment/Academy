@@ -420,6 +420,13 @@ img {
 
 .social-list {
   list-style: none;
+  display: grid;
+  grid-template-columns: repeat( 3, 90px);
+}
+
+.footer-social {
+  display: grid;
+  grid-template-columns: 400px auto;
 }
 
 .sale-slogan {
