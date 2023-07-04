@@ -31,7 +31,7 @@
   <main class="container catalog">
     <h1 class="catalog-header">Магазин готовых шаблонов</h1>
     <section class="filters">
-      <h2 class="visually-hidden">Фильтр шаблонов</h2>
+      <h2 class="visually-hidden ">Фильтр шаблонов</h2>
       <form method="get" action="https://echo.htmlacademy.ru">
         <fieldset class="fieldset filter-price">
           <legend class="filter-header">Стоимость:</legend>
@@ -83,6 +83,9 @@
         </fieldset>
         <button class="button button-filter-pagination" type="submit">Показать</button>
       </form>
+    </section>
+    <section class="catalog-place">
+      <h2 class="visually-hidden">Список шаблонов</h2>
       <form method="get" action="https://echo.htmlacademy.ru">
         <fieldset class="fieldset">
           <legend class="sort-header">Сортировать:</legend>
@@ -99,20 +102,7 @@
             <span>По названию</span>
           </label>
         </fieldset>
-        <fieldset class="fieldset">
-          <legend class="sort-header">Сортировать:</legend>
-          <label class="direction-sort-label">
-            <input class="direction-sort-input" type="radio" name="direction-sort" value="max-min" checked>
-            <span>Макс-мин</span>
-          </label>
-          <label class="direction-sort-label">
-            <input class="direction-sort-input" type="radio" name="direction-sort" value="min-max">
-            <span>Мин-макс</span>
-          </label>
       </form>
-    </section>
-    <section class="catalog">
-      <h2>Список шаблонов</h2>
       <ul class="catalog-list">
         <li class="catalog-item">
           <a href="blank.html">
@@ -202,38 +192,30 @@
     </section>
   </main>
   <footer class="main-footer">
-    <section class="footer-contacts">
+    <section class="footer-contacts contacts-container">
       <h2 class="visually-hidden">Контакты</h2>
-      <p class="footer-contacts__name-studio">Nёrd's design studio</p>
-      <p class="contacts-info">наб. Реки Карповки, <br>
-        5 лит П, Санкт-Петербург</p>
-      <a class="contacts-info" href="tel:+78005558628">+7 800 555-86-28</a>
-      <button class="button" type="button">Напишите нам</button>
+      <div class="contacts-text">
+        <p class="footer-contacts__name-studio">Nёrd's design studio</p>
+        <p class="contacts-info">наб. Реки Карповки, <br>
+          5 лит П, Санкт-Петербург</p>
+        <a class="footer-pfone contacts-info" href="tel:+78005558628">+7 800 555-86-28</a>
+        <button class="button" type="button">Напишите нам</button>
+      </div>
       <img src="img/map/map.jpg" width="1440" height="416" class="map" alt="Карта в районе студии «Nёrd's».">
-      <img src="img/map/marker.png" width="231" height="190" alt="Маркер «Nёrd's» на карте">
+      <img src="img/map/marker.png" width="231" height="190" class="marker" alt="Маркер «Nёrd's» на карте">
     </section>
-    <section class="footer-social">
+    <section class="footer-social container">
       <h2 class="visually-hidden">Соцсети</h2>
       <ul class="social-list">
         <li><a class="social-button" href="#">Вконтакте</a></li>
         <li><a class="social-button" href="#">Фейсбук</a></li>
         <li><a class="social-button" href="#">Телеграмм</a></li>
       </ul>
-      <p class="sale-slogan">Давайте дружить, это выгодно!</p>
-      <p class="sale">Скидка 10% для друзей из социальных сетей.</p>
+      <div class="footer-promo">
+        <p class="sale-slogan">Давайте дружить, это выгодно!</p>
+        <p class="sale">Скидка 10% для друзей из социальных сетей.</p>
+      </div>
     </section>
-  </footer>
-  <section class="popup feedback">
-    <h2 class="feedback__header">Напишите нам</h2>
-    <button class="feedback__close" type="button">Закрыть</button>
-    <form class="feedback__form">
-      <label>Ваше имя:<input class="feedback__input" name="feedback__name" placeholder="Имя Фамилия"
-          pattern="^[А-Яа-яЁё\s]+$"></label>
-      <label>Ваш email:<input class="feedback__input" name="feedback__email" placeholder="email@example.com"></label>
-      <label>Текст письма:<input class="feedback__input" name="feedback__text" placeholder="В свободной форме"></label>
-      <button class="button" type="button">Отправить</button>
-    </form>
-  </section>
   </footer>
 </body>
 
