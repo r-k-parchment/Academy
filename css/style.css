@@ -369,8 +369,18 @@ img {
 
 /*  Our-clients */
 
+.our-clients {  
+  margin-top: 138px;
+}
+
 .clients-list {
   list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 184px;
+
+  display: flex;
+  justify-content: space-around;
 }
 
 .client-item a {
