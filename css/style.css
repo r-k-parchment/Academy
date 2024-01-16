@@ -263,7 +263,7 @@ img {
 
 .services-item {
   width: 300px;
-}
+}  
 
 .services-cart {
   display: flex;
@@ -320,6 +320,20 @@ img {
 }
 
 /* About-us */
+
+.about-company {
+  display: flex;
+  margin-top: 121px;
+}
+
+.container-we {
+  width: 651px;
+  margin-right: 149px;
+}
+
+.container-we-in-numbers {
+  width: 360px;
+}
 
 .we {
   font-weight: 500;
