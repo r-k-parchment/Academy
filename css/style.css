@@ -98,6 +98,7 @@ img {
 
 .main-header-logo {
   padding: 0;
+  height: 65px;
 }
 
 .main-navigation {
@@ -107,6 +108,8 @@ img {
 
 .site-navigation {
   display: flex;
+  flex-wrap: wrap;
+  width: 502px;
 }
 
 
