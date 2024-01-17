@@ -403,6 +403,11 @@ img {
 
 /* Contacts */
 
+.footer-contacts {
+  display: flex;
+  flex-direction: column;
+}
+
 .contacts-container {
   width: 1440px;
   padding: 0;
@@ -414,19 +419,32 @@ img {
   padding: 0;
 }
 
-.marker {
-  margin: 70px 362px 156px 847px;
-  padding: 0;
+.overlay {
+  display: flex;
+  width: 1160px;
+  height: 416px;
+
+  margin-top: -416px;
 }
 
 .contacts-text {
   width: 319px;
   height: 308px;
 
-  margin: 54px 981px 54px 140px;
+  margin: 0;
   padding: 0;
 
+  align-self: center;
+
   background-color: var(--basic-white);
+}
+
+.marker {
+  margin: 0;
+  margin-top: 70px;
+  margin-left: 388px;
+  padding: 0;
+  align-self: self-start;
 }
 
 .footer-contacts__name-studio {
@@ -445,17 +463,30 @@ img {
 
 /* Social */
 
+.footer-social {
+  display: flex;
+  margin-top: 68px;
+}
+
 .social-list {
   list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 400px;
 }
 
 .sale-slogan {
+  margin: 0;
+  padding: 0;
   font-weight: 700;
   font-size: 36px;
   line-height: 36px;
 }
 
 .sale {
+  margin: 0;
+  padding: 0;
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
