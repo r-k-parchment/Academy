@@ -14,7 +14,7 @@
 </head>
 
 <body class="page-body">
-  <header class="main-header">
+  <header class="main-header-background">
     <nav class="main-navigation container">
       <a class="main-haeder-logo" href="index.html">
         <img src="img/logo.svg" alt="Логотип &lt;Нердс&gt;">
@@ -28,9 +28,11 @@
       <a class="basket-link" href="blank.html">Корзина</a>
     </nav>
   </header>
-  <main class="container catalog">
-    <h1 class="catalog-header">Магазин готовых шаблонов</h1>
-    <section class="filters">
+  <main class="catalog">
+    <div class="main-header-background">
+      <h1 class="catalog-header">Магазин готовых шаблонов</h1>
+    </div>
+    <section class="filters container">
       <h2 class="visually-hidden ">Фильтр шаблонов</h2>
       <form method="get" action="https://echo.htmlacademy.ru">
         <fieldset class="fieldset filter-price">
@@ -84,7 +86,7 @@
         <button class="button button-filter-pagination" type="submit">Показать</button>
       </form>
     </section>
-    <section class="catalog-place">
+    <section class="catalog-place container">
       <h2 class="visually-hidden">Список шаблонов</h2>
       <form method="get" action="https://echo.htmlacademy.ru">
         <fieldset class="fieldset">
