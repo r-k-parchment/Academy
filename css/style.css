@@ -66,6 +66,8 @@ a {
 img {
   max-width: 100%;
   height: auto;
+  margin: 0;
+  padding: 0;
 }
 
 .visually-hidden {
@@ -98,14 +100,18 @@ img {
 
 .main-header-logo {
   padding: 0;
-  height: 65px;
+  height: 66px;
 }
 
 .main-navigation {
+  font-weight: 500;
+  line-height: 30px;
+  color: var(--basic-black);
+  text-transform: uppercase;
+
   display: flex;
   justify-content: space-between;
-  margin-top: 49px;
-  outline: -1px solid #00aa62;
+  margin-top: 48px;
 }
 
 .site-navigation {
@@ -114,13 +120,6 @@ img {
   width: 502px;
 }
 
-
-.main-navigation {
-  font-weight: 500;
-  line-height: 30px;
-  color: var(--basic-black);
-  text-transform: uppercase;
-}
 
 .site-navigation {
   list-style: none;
@@ -176,6 +175,8 @@ img {
 .basket-link:not([href]) {
   border-bottom: solid 2px var(--basic-pink);
 }
+
+/*index-main*/
 
 /* Company-slogans*/
 
@@ -396,6 +397,7 @@ img {
   opacity: 10%;
 }
 
+
 /* Footer */
 
 .main-footer {
@@ -548,11 +550,22 @@ img {
   font-size: 55px;
   line-height: 55px;
   text-align: center;
-  margin: 0;
   padding: 0;
+  padding-top: 78px;
+  padding-bottom: 108px;
 }
 
 /*Main*/
+
+.filters-market {
+  display: flex;
+  flex-direction: row;
+}
+
+.filters{
+  display: flex;
+  width: 400px;
+}
 
 /*Sort*/
 
@@ -574,6 +587,10 @@ img {
 }
 
 /* Filter price */
+
+.catalog-place {
+  width: 1040;
+}
 
 .filter-price-label {
   line-height: 22px;
@@ -654,6 +671,11 @@ img {
   list-style: none;
 }
 
+.catalog-item {
+  width: 360px;
+  height: 618;
+}
+
 .catalog-item-header {
   opacity: 0.12;
 }
@@ -666,6 +688,11 @@ img {
 
 .catalog-item:hover .catalog-item-header {
   opacity: 1;
+}
+
+.cart {
+  display: flex;
+  flex-direction: column;
 }
 
 .popup {
